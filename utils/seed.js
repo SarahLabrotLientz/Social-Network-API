@@ -11,7 +11,7 @@ connection.once("open", async () => {
   await Course.deleteMany({});
 
   // Drop existing users
-  await Student.deleteMany({});\
+  await Student.deleteMany({});
   
   // Add users to the collection and await the results
   await Student.collection.insertMany(students);

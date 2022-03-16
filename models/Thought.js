@@ -1,4 +1,5 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model } = require("mongoose");
+const reactionSchema = require("./Reaction");
 
 // Schema to create a course model
 const thoughtSchema = new Schema(
@@ -23,9 +24,10 @@ const thoughtSchema = new Schema(
     users: [
       {
         type: Schema.Types.ObjectId,
-        ref: 'Users',
+        ref: "Users",
       },
     ],
+    reactions: [reactionSchema],
   },
   {
     toJSON: {
@@ -35,6 +37,6 @@ const thoughtSchema = new Schema(
   }
 );
 
-const Thought = model('thought', thoughtSchema);
+const Thought = model("thought", thoughtSchema);
 
 module.exports = Thought;
