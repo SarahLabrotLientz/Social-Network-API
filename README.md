@@ -20,9 +20,17 @@ install Mongoose and Express.js
 
 [CLICK HERE](https://drive.google.com/file/d/1wxjLwscCrcLIkUfgCeUznVVBbtw4Y3pw/view)
 
+## Preview
+
+![Insomnia](ss.png)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Github Link
+
+[CLICK HERE](https://github.com/SarahLabrotLientz/Social-Network-API)
 
 ## License
 
