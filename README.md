@@ -18,7 +18,7 @@ install Mongoose and Express.js
 
 ## Walkthrough Video
 
-[CLICK HERE](https://choosealicense.com/licenses/mit/)
+[CLICK HERE](https://drive.google.com/file/d/1wxjLwscCrcLIkUfgCeUznVVBbtw4Y3pw/view)
 
 ## Contributing
 
