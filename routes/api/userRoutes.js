@@ -6,14 +6,14 @@ const {
   deleteUser,
   addFriend,
   removeFriend,
+  updateUser
 } = require("../../controllers/userController");
-const { post } = require("../../models/Reaction");
 
 // /api/user
 router.route("/").get(getUsers).post(createUser);
 
 // /api/users/:userId
-router.route("/:userId").get(getSingleUser).delete(deleteUser);
+router.route("/:userId").get(getSingleUser).delete(deleteUser).put(updateUser);
 
 // /api/users/:userId/friends
 // router.route("/:userId/friends").post(addFriend);

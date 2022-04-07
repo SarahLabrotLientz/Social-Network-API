@@ -18,7 +18,7 @@ install Mongoose and Express.js
 
 ## Walkthrough Video
 
-[CLICK HERE](https://drive.google.com/file/d/1wxjLwscCrcLIkUfgCeUznVVBbtw4Y3pw/view)
+[CLICK HERE](https://drive.google.com/file/d/1qBHQ1bJafx-BYEoRUUMqANOXMqwEnoHN/view)
 
 ## Preview
 
